@@ -1,0 +1,58 @@
+/*=====
+Sass structure
+=====*/
+// Structure information:
+// Auth: Mohamed Omar mubark
+// Email: mohamed.omar.freelancer@gmail.com
+
+/* Start structure
+    font
+        import fonts
+    helpers
+        variables
+        reset
+    classes
+        color
+        background
+        margin
+        padding
+        text
+    components
+        button
+    pages
+        
+End Structure*/
+
+/*=====
+fonts
+=====*/
+// english fort
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+// arabic fort
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+/*=====
+helpers
+=====*/
+@import "./helpers/variables";
+@import "./helpers/reset";
+/*=====
+classes
+=====*/
+@import "./classes/color";
+@import "./classes/background";
+@import "./classes/margin";
+@import "./classes/padding";
+@import "./classes/text";
+/*=====
+components
+=====*/
+@import "./components/button";
+/*=====
+pages
+=====*/
+// home
+    @import "./pages/home";
+
+
+// vue-snotify
+@import "../../node_modules/vue-snotify/styles/material.css";

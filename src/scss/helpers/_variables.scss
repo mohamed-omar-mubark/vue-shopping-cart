@@ -1,0 +1,31 @@
+/*=====
+Variables
+=====*/
+:root {
+    // fonts
+    // english fort
+    --english-font-family: 'Poppins', sans-serif;
+    // arabic forn
+    --arabic-font-family: 'Cairo', sans-serif;
+
+    // colors
+    --main-color: #10b981;
+    --blue-color: #164db0;
+    --secondary-color: #808080;
+    --black-color: #010101;
+    --white-color: #ffffff;
+    --info-color: #4A4DE6;
+    --success-color: #34B53A;
+    --warning-color: #FF8F00;
+    --danger-color: #E83274;
+    --gray-color: #d5d9e0;
+    
+    // backgrounds
+    --main-background: #2d3748;
+    --gray-background: #F4F5F9;
+    --sky-background: #E3ECFC;
+}
+
+// vars
+$mainFontSize: 16px;
+$mainFontWeight: 400;
